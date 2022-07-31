@@ -1,7 +1,7 @@
 title: Berry
 author:
-  name: stillnotsure
-  email: your-email@domain.com
+  name: micuelew
+  email: micheleqirici05@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -12,13 +12,13 @@ minima:
 
   # generate social links in footer
   social_links:
-    #twitter: jekyllrb
+    twitter: micuelew
     #github:  jekyll
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
-    # instagram: jekyll
+     instagram: f0rtnitemaster69
     # linkedin: jekyll
     # pinterest: jekyll
     # youtube: jekyll
