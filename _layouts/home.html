@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="home">
+
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
@@ -38,10 +39,20 @@ layout: default
       {%- endfor -%}
     </ul>
 
+
+<h2><a href="{{ 'feed.xml' | relative_url }}">
+<span>Follow the feed</span>
+            <svg class="svg-icon orange">
+              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+			</svg>
+          </a></h2>
+
+
+
     {% if site.paginate %}
       <div class="pager">
         <ul class="pagination">
-        {%- if paginator.previous_page %}
+		    {%- if paginator.previous_page %}
           <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
         {%- else %}
           <li><div class="pager-edge">•</div></li>
